@@ -1,6 +1,6 @@
-# 📧 Spam Email Detection using Machine Learning
+#  Spam Email Detection using Machine Learning
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project builds a **Spam Email Classifier** using Machine Learning.
 It classifies emails/messages as:
@@ -12,7 +12,7 @@ The model is trained using **TF-IDF Vectorization** and a **Naive Bayes classifi
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas
@@ -22,7 +22,7 @@ The model is trained using **TF-IDF Vectorization** and a **Naive Bayes classifi
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 * File: `email.csv`
 * Columns:
@@ -32,7 +32,7 @@ The model is trained using **TF-IDF Vectorization** and a **Naive Bayes classifi
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Data cleaning and preprocessing
 2. Convert text into numerical features using TF-IDF
@@ -41,7 +41,7 @@ The model is trained using **TF-IDF Vectorization** and a **Naive Bayes classifi
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 * Accuracy: **~(your accuracy here, e.g., 98%)**
 * Evaluation metrics:
@@ -52,16 +52,16 @@ The model is trained using **TF-IDF Vectorization** and a **Naive Bayes classifi
 
 ---
 
-## 💾 Saved Files
+##  Saved Files
 
 * `spam_model.pkl` → trained model
 * `tfidf_vectorizer.pkl` → text vectorizer
 
-⚠️ Both files are required for predictions.
+ Both files are required for predictions.
 
 ---
 
-## ▶️ How to Use
+##  How to Use
 
 ```python
 import joblib
@@ -79,7 +79,7 @@ print("Spam" if prediction[0] == 1 else "Ham")
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib
@@ -87,7 +87,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Use deep learning (LSTM / BERT)
 * Deploy as web app (Streamlit / Flask)
@@ -95,7 +95,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Hifsa Shahid
 
